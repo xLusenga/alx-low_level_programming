@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include  <stdio.h>
 /**
  * main - print out various sizes of data types in c
  * Return: 0
