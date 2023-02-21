@@ -6,14 +6,12 @@
  * Return: The absolute value
  */
 
-int _abs(void)
+int _abs(int)
 {
+	int t;
+
 	if (t >= 0)
-	{
 		return (t);
-	}
 	else
-	{
 		return (-t);
-	}
 }
