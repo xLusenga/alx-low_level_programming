@@ -11,11 +11,11 @@ int main(void)
 
 	n1 = 1;
 	n2 = 2;
-	printf("%|d, %|d", n1, n2);
+	printf("%\d, %\d", n1, n2);
 	for (c = 0; c < 48; c++)
 	{
 		fn = n1 + n2;
-		printf(",%|d", fn);
+		printf("%\d", fn);
 		n1 = n2;
 		n2 = fn;
 	}
